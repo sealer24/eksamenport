@@ -1,10 +1,8 @@
 #pagewrap {
     display: grid;
-    justify-content: center;
     grid-row-gap: 2em;
     grid-template-rows: auto;
     grid-template-areas: 
-        "phpheader"
         "phpheader"
         "overordnettekst"
         "container1"
@@ -19,8 +17,6 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: black;
 }
-
-}
 #overskrift{
     text-align: center;
 }
@@ -34,6 +30,7 @@ a:link, a:visited, a:hover, a:active {
 #phpheader{
     grid-area: phpheader;
     justify-self: center;
+    text-align: center;
 }
 #mmdbillede {
     width: 100%;
