@@ -1,0 +1,148 @@
+#pagewrap {
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 2em;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "phpheader"
+        "phpheader"
+        "overordnettekst"
+        "container1"
+        "container2"
+        "container3"
+        "container4"
+        "container5"
+        "container6"
+        
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+}
+#overskrift{
+    text-align: center;
+}
+#overovertekst{
+    text-align: center;
+}
+#overordnettekst{
+    grid-area: overordnettekst;
+    justify-self: center;
+}
+#phpheader{
+    grid-area: phpheader;
+    justify-self: center;
+}
+#mmdbillede {
+    width: 100%;
+    height: auto;
+    justify-self: center;
+}
+.border{
+    border: 3px solid black;
+    max-width: 400px;
+}
+.billede{
+    width: 100%;
+    height: auto;
+    align-self: center
+}
+#container1 {
+    grid-area: container1;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "teksttool billedetool"
+}
+#teksttool {
+    grid-area: teksttool;
+    
+}
+#billdetool{
+    grid-area: billedetool;
+}
+#container2 {
+    grid-area: container2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "billedekom tekstkom"
+}
+#tekstkom {
+    grid-area: tekstkom;
+}
+#billedekom{
+    grid-area: billedekom;
+}
+#container3 {
+    grid-area: container3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "tekstmet billedemet"
+}
+#tekstmet {
+    grid-area: tekstmet;
+}
+#billedemet{
+    grid-area: billedemet;
+}
+#container4 {
+    grid-area: container4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "billededesign tekstdesign"
+}
+#tekstdesign {
+    grid-area: tekstdesign;
+}
+#billededesign{
+    grid-area: billededesign;
+}
+#container5 {
+    grid-area: container5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "tekstproj billedeproj"
+}
+#tekstproj {
+    grid-area: tekstproj;
+}
+#billedeproj{
+    grid-area: billedeproj;
+}
+#container6 {
+    grid-area: container6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "billederef tekstref"
+}
+#tekstref {
+    grid-area: tekstref;
+}
+#billederef{
+    grid-area: billederef;
+}
+@media screen and (min-width: 1000px) {
+    #pagewrap{
+        display: grid;
+        grid-row-gap: 2em;
+        grid-column-gap: 2em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "phpheader phpheader phpheader"
+            "overordnettekst overordnettekst overordnettekst"
+            "container1 container2 container3"
+            "container4 container5 container6"
+    }
+    .border{
+       max-width: 1440px; 
+    }
+}
