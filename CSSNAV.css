@@ -3,7 +3,8 @@
     grid-row-gap: 2em;
     grid-template-rows: auto;
     grid-template-areas: 
-        "phpheader"
+        "overskrift"
+        "mmdbillede"
         "overordnettekst"
         "container1"
         "container2"
@@ -52,79 +53,79 @@ a:link, a:visited, a:hover, a:active {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "teksttool billedetool"
+        "tekst1 billede1"
 }
-#teksttool {
-    grid-area: teksttool;
+#tekst1 {
+    grid-area: tekst1;
     
 }
-#billdetool{
-    grid-area: billedetool;
+#billde1{
+    grid-area: billede1;
 }
 #container2 {
     grid-area: container2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "billedekom tekstkom"
+        "billede2 tekst2"
 }
-#tekstkom {
-    grid-area: tekstkom;
+#tekst2 {
+    grid-area: tekst2;
 }
-#billedekom{
-    grid-area: billedekom;
+#billede2{
+    grid-area: billede2;
 }
 #container3 {
     grid-area: container3;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "tekstmet billedemet"
+        "tekst3 billede3"
 }
-#tekstmet {
-    grid-area: tekstmet;
+#tekst3 {
+    grid-area: tekst3;
 }
-#billedemet{
-    grid-area: billedemet;
+#billede3{
+    grid-area: billede3;
 }
 #container4 {
     grid-area: container4;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "billededesign tekstdesign"
+        "billede4 tekst4"
 }
-#tekstdesign {
-    grid-area: tekstdesign;
+#tekst4 {
+    grid-area: tekst4;
 }
-#billededesign{
-    grid-area: billededesign;
+#billede4{
+    grid-area: billede4;
 }
 #container5 {
     grid-area: container5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "tekstproj billedeproj"
+        "tekst5 billede5"
 }
-#tekstproj {
-    grid-area: tekstproj;
+#tekst5 {
+    grid-area: tekst5;
 }
-#billedeproj{
-    grid-area: billedeproj;
+#billede5{
+    grid-area: billede5;
 }
 #container6 {
     grid-area: container6;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "billederef tekstref"
+        "billede6 tekst6"
 }
-#tekstref {
-    grid-area: tekstref;
+#tekst6 {
+    grid-area: tekst6;
 }
-#billederef{
-    grid-area: billederef;
+#billede6{
+    grid-area: billede6;
 }
 @media screen and (min-width: 1000px) {
     #pagewrap{
