@@ -18,7 +18,18 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: black;
 }
+.tekstbox {
+    background-color: beige;
+}
+.tekst{
+    padding-left: 0.5em;
+    text-align: center;
+}
 #overskrift{
+    text-align: center;
+    grid-area: overskrift;
+}
+.overtekst{
     text-align: center;
 }
 #overovertekst{
@@ -37,11 +48,9 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     height: auto;
     justify-self: center;
+    grid-area: mmdbillede;
 }
-.border{
-    border: 3px solid black;
-    max-width: 400px;
-}
+
 .billede{
     width: 100%;
     height: auto;
@@ -135,10 +144,12 @@ a:link, a:visited, a:hover, a:active {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
-            "phpheader phpheader phpheader"
+            "container1 mmdbillede container2"
+            "container3 mmdbillede container4"
+            "container5 mmdbillede container6"
+            "overskrift overskrift overskrift"
             "overordnettekst overordnettekst overordnettekst"
-            "container1 container2 container3"
-            "container4 container5 container6"
+            
     }
     .border{
        max-width: 1440px; 
