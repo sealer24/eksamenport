@@ -1,0 +1,120 @@
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+.billede{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+#citat1{
+    font-style: italic;
+    grid-area: citat1;
+}
+#topovertekst{
+    text-align: center
+}
+.tekstbox {
+    background-color: gainsboro; 
+}
+
+.tekst{
+    text-align: center;
+}
+#tekst1 {
+    margin: 0px;
+    grid-area: tekst1;
+}
+#overskrift1{
+    text-align: center;
+    grid-area: overskrift1;
+}
+#billede1{
+    grid-area: billede1;
+    width: auto;
+    height: 400px;
+    justify-self: center;
+}
+#box1{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            ". overskrift1 ."
+            ". tekst1 ."
+            ". billede1 ."
+            ". citat1 ."
+   
+}
+#tekst2 {
+    margin: 0px;
+    grid-area: tekst2;
+}
+#overskrift2{
+    text-align: center;
+    grid-area: overskrift2;
+}
+#billede2{
+    grid-area: billede2;
+    width: auto;
+    height: 400px;
+    justify-self: center;
+}
+#box2{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            ". overskrift2 ."
+            ". tekst2 ."
+            ". billede2 ."
+   
+}
+#tekst3 {
+    margin: 0px;
+    grid-area: tekst3;
+}
+#overskrift3{
+    text-align: center;
+    grid-area: overskrift3;
+}
+#billede3{
+    grid-area: billede3;
+    width: auto;
+    height: 400px;
+    justify-self: center;
+}
+#box3{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            ". overskrift3 ."
+            ". tekst3 ."
+            ". billede3 ."
+   
+}
+#tekst4 {
+    margin: 0px;
+    grid-area: tekst4;
+}
+#overskrift4{
+    text-align: center;
+    grid-area: overskrift4;
+}
+#billede4{
+    grid-area: billede4;
+    width: auto;
+    height: 400px;
+    justify-self: center;
+}
+#box4{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            ". overskrift4 ."
+            ". tekst4 ."
+            ". billede4 ."
+   
+}

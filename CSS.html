@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <title>CSS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="content.css">
+    </head>
+    <body>
+        <div class="tekstbox">
+            <a href="Tools.html">
+                <img src="billeder/back.png" alt="tilbage">
+            </a>
+            <a href="index.html">
+                <img src="billeder/home.png" alt="home">
+            </a>
+            <h1 id="topovertekst">CSS</h1>
+        </div>
+        <div class="tekstbox" id="box1">
+            <h2 id="overskrift1">CSS</h2>
+            <p class="tekst" id="tekst1">
+            Css er grundlæggende styling til html. Html kan meget lidt styling i sig selv, og det kan ses på nettets gamle sider. Css står for cascading style sheets. Css kan man bruge på 3 forskelige måder, inline, embeded og via separat stylesheet. Inline er når vi skriver det direkte i koden, dette har jeg bla. gjort lidt af på min projekt hjemmeside. Man kan også lave embeded, her skriver man alle sine style sheets øverst i html. Det vi har brugt mest og som er mest praktisk, er et separat css dokument. På den måde kan man samle det hele et sted og få et bedre overblik over både sin html og css. Med det sagt, så er der også en orden i de 3, på den måde at inline altid tæller først dernæst embeded og så det separate dokument.  
+            </p>
+        </div>
+        <div class="tekstbox" id="box2">
+            <h2 id="overskrift2">Syntaks</h2>
+            <p class="tekst" id="tekst2">
+            For at kunne style skal man have en selector, som fortæller hvad man styler. Her kan man bruge alle tags, men hvis man nu ikke vil lave alle p til en specifik stil, så kan man bruge .class. Dette er en selector man kan smide på så mange som det nu er relevant og så kan man style dem på en specifik måde. Som alternativ kan man bruge #id. Den er meget mere specifik, og må kun bruges 1 gang, så det er hvis et specifikt element skal styles på en specifik måde. Ud over det er der en lang flok pseudo selectors, de vil skrives #id:hover { css} på den måde ved den, at den skal style #id når du har musen over den. Css bruger kaskaderegler. Nedarvning af style, jo mere specifikt noget er desto højere rang, men også rækkefølgen, så derfor får den seneste deklaration første rang. 
+            </p>
+        </div>
+        <img class="billede" src="billeder/css.png">
+        <footer> kilder Intro til css - Niels Østergaard - PP </footer>
+    </body>
+</html>

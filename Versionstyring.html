@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <title>Versionstyring</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="content.css">
+    </head>
+    <body>
+        <div class="tekstbox">
+            <a href="metoder.html">
+                <img src="billeder/back.png" alt="tilbage">
+            </a>
+            <a href="index.html">
+                <img src="billeder/home.png" alt="home">
+            </a>
+            <h1 id="topovertekst">Versionstyring</h1>
+        </div>
+        <div class="tekstbox" id="box1">
+            <h2 id="overskrift1">Git</h2>
+            <p class="tekst" id="tekst1">
+            I forhold til versions styring er det noget vi laver for at undgå fejl så vidt muligt, men også for at arbejde ”non-destruktivt” med vores kode. På den måde kan man arbejde på flere dele af koden på samme tid sammen med andre. Tester koden igennem, samler den og tester den igen. Det giver også mulighed for at have flere forskellige versioner af en kode, som skal kunne lidt anderledes ting fra hinanden.  Det giver en meget metodisk tilgang til at kode og at udbygge noget på. Det er noget man vil bruge i alle sammenhænge når man taler it-løsninger. Der er mange måder at lave versions-styring på. I vores tilfælde har vi arbejdet meget med GitHub, som benytter sig af Git protokollen. Git er en versions-styrings standard, som er meget fokuseret på hastighed, og det er noget der er skabt til at vedligeholde kode.    
+            </p>
+        </div>
+        <img class="billede" src="billeder/mitgit.png">
+        <div class="tekstbox" id="box2">
+            <h2 id="overskrift2">Github</h2>
+            <p class="tekst" id="tekst2">
+            GitHub er et form for socialt medie for ”nøder”. Et sted hvor vi kan ligge vores kildekode op. Et repository er en form for ”projekt mappe”. Det er her alle dine filer for et givet projekt ville ligge. Et repository kan have alle de branches man ønsker, men starter med en ”master” branch som vil være den version, der er ”live”. Når man laver en branch, tager man egentligt en kopi af hvor du tager den fra. Her kan man så arbejde videre med koden uden at evt. bugs kommer live. Så man kan blive ved med at udvikle og teste uden at ”brugeren” kan mærke noget til det. Når man laver ændringer i en branch kan man lave et commit. Et commit er at lave et ”save”, altså et billede af hvordan koden ser ud lige nu. Det er muligt at hoppe tilbage i alle sine commits, så derfor er det også vigtigt at man navngiver på en fornuftig vis. Et pull request er en måde, hvor man fortæller til evt. andre der arbejder på projektet, hvad man har lavet af ændringer, altså et form for forslag. På den måde kan man snakke om hvad der egentligt er sket med koden, da den kan samlignes med den originale version og til sidst godkendes. Når man merger sine branches samler man flere branches under 1. Det vil man typisk gøre, når man har lavet ændringer og testet dem igennem. Eks. Kunne man lave en merge af en eksperimental branch, som man merger med ens master branch, for at lave en ny ”live” version af sin hjemmeside. 
+            </p>
+        </div>
+        <footer>
+Kilder<br>
+Versionsstyring - Niels Østergaard - PP
+</footer>
+    </body>
+</html>

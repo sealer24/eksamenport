@@ -4,6 +4,8 @@
     grid-template-rows: auto;
     grid-template-areas: 
         "overskrift"
+        "tom1"
+        "tom2"
         "mmdbillede"
         "overordnettekst"
         "container1"
@@ -18,12 +20,21 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: black;
 }
+#tom1{
+    grid-area: tom1;
+}
+#tom2{
+    grid-area: tom2;
+}
 .tekstbox {
-    background-color: beige;
+    background-color: gainsboro;
+    
 }
 .tekst{
     padding-left: 0.5em;
+    padding-right: 0.5em;
     text-align: center;
+    
 }
 #overskrift{
     text-align: center;
@@ -48,12 +59,13 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     height: auto;
     justify-self: center;
+    align-self: top;
     grid-area: mmdbillede;
 }
 
 .billede{
     width: 100%;
-    height: auto;
+    height: 300px;
     align-self: center
 }
 #container1 {
@@ -136,7 +148,7 @@ a:link, a:visited, a:hover, a:active {
 #billede6{
     grid-area: billede6;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
     #pagewrap{
         display: grid;
         grid-row-gap: 2em;
@@ -144,11 +156,12 @@ a:link, a:visited, a:hover, a:active {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
+            "overskrift overskrift overskrift"
+            "tom1 overordnettekst tom2"
             "container1 mmdbillede container2"
             "container3 mmdbillede container4"
             "container5 mmdbillede container6"
-            "overskrift overskrift overskrift"
-            "overordnettekst overordnettekst overordnettekst"
+            
             
     }
     .border{
